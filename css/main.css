@@ -13,6 +13,16 @@ footer {
 
 }
 
+#all{
+
+    height:100%;
+
+    width:100%;
+
+    margin:auto;
+
+}
+
 .logo_navbar{
     width: 32px;
     margin-left: 3%
@@ -27,6 +37,7 @@ footer {
 }
 #dropdead{
     margin-top: 3%;
+    margin-left: -3%;
 
 }
 #centro {
@@ -68,10 +79,13 @@ footer {
 .navbar a,#myNavbar a{
     color:#A52A2A;
 }
-
-@media only screen and (max-width: 300px) {
+#containerdrop {
+     display:flex;
+     position: relative;
 
 }
+
+
 *{
     font-family: 'Indie Flower', cursive;
 }
