@@ -13,15 +13,9 @@ footer {
 
 }
 
-#all{
 
-    height:100%;
 
-    width:100%;
 
-    margin:auto;
-
-}
 
 .logo_navbar{
     width: 32px;
@@ -38,14 +32,25 @@ footer {
 #dropdead{
     margin-top: 3%;
     margin-left: -3%;
+    text-overflow:initial;
+
+
 
 }
+
+
 #centro {
     text-align: center;
 }
 #radioimg {
     border-radius: 20px;
     margin-right: 300px;
+}
+#radioimg2 {
+    border-radius: 20px;
+    margin-right: 300px;
+    margin-left: -3%;
+
 }
 #centroimg {
     margin-left: 8%;
@@ -56,7 +61,7 @@ footer {
     border-radius:10px;
 }
 #centroimg2 {
-    margin-left:1%;
+    margin-left:-1%;
     border-radius:10px;
 }
 .allcontent ,nav{
@@ -79,11 +84,7 @@ footer {
 .navbar a,#myNavbar a{
     color:#A52A2A;
 }
-#containerdrop {
-     display:flex;
-     position: relative;
 
-}
 
 
 *{
@@ -108,8 +109,17 @@ footer {
 .row {
     width: 100%;
     display: flex;
-    overflow: auto;
+    padding: 10px;;
+}
+.drops {
+    width: 100%;
+    display: flex;
     padding: 10px;
+    margin-bottom: 30%;
+}
+
+.container-fluid {
+        overflow: auto;
 }
 }
 .col-1 {
